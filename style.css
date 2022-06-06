@@ -14,3 +14,40 @@
     --border-menu-mobile: #A8A8B3;
     --text-color-menu-mobile: #E1E1E6;
   }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 57.375rem;
+    padding-top: 2rem;
+    background: var(--backgrond);
+}
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header .logo{
+      width: 44px;
+      height: 50px;
+      background: url(/assets/logo-desktop.svg);
+  }
+  header .menus, header .menus nav,header .menus nav ul {
+      display: flex;
+  }
+  header .menus  nav.menu ul {
+      margin-right: 130px;
+  }
+  header .menus  nav.menu ul li  {
+    padding-left: 32.5px;
+  }
+  header .menus nav.menu a{
+      color: var(--text-color);
+  }
+  header .menus nav.menu .buton{
+    padding: 11px 38px;
+    border: 2px solid var(--border);
+    
+  }
